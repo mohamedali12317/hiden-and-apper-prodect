@@ -1,0 +1,42 @@
+*{
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.contianer{
+ overflow: hidden;
+ display: flex;
+ margin: 47px 48px;
+ gap: 2;
+}
+
+.contianer .card{
+ width: 400px;
+ height: 400px;
+ padding: 20px;
+ margin-left: 50px;
+}
+
+img {
+ max-width: 100%;
+}
+
+
+button{
+ padding: 9px;
+ color: #151512;
+ margin: auto 376px;
+ transform: translate(243%, -247%);
+}
+
+.all-card {
+ display: flex;
+}
+
+.hide {
+ display: none;
+}
